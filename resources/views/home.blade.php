@@ -95,16 +95,16 @@
                         <div class="timer">
                             <ul>
                                 <li><span class="days"></span>
-                                    <p class="daysText">days</p>
+                                    <p class="daysText">Días</p>
                                 </li>
                                 <li><span class="hours"></span>
-                                    <p class="hoursText">hours</p>
+                                    <p class="hoursText">Horas</p>
                                 </li>
                                 <li><span class="minutes"></span>
-                                    <p class="minutesText">minutes</p>
+                                    <p class="minutesText">Minutos</p>
                                 </li>
                                 <li><span class="seconds"></span>
-                                    <p class="secondsText">seconds</p>
+                                    <p class="secondsText">Segundos</p>
                                 </li>
                             </ul>
                         </div>
