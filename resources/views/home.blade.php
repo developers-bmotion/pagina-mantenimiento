@@ -54,8 +54,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon/apple-touch-icon-144-precomposed.html">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/apple-touch-icon-114-precomposed.html">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/apple-touch-icon-72-precomposed.html">
-    <link rel="apple-touch-icon-precomposed" href="/img/favicon/apple-touch-icon-57-precomposed.html">
-    <link rel="shortcut icon" href="/img/favicon/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/">
+    <link rel="shortcut icon" href="/img/logoCubatao.png">
 
 </head>
 
