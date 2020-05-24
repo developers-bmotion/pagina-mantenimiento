@@ -99,27 +99,27 @@ $(document).ready(function() {
         }
 
         if (($('.days').html()) == 1) {
-            $('.daysText').text(" day ");
+            $('.daysText').text(" dia ");
         } else {
-            $('.daysText').text(" days ");
+            $('.daysText').text(" días ");
         }
 
         if (($('.hours').html()) == 1) {
-            $('.hoursText').text(" hour ");
+            $('.hoursText').text(" hora ");
         } else {
-            $('.hoursText').text(" hours ");
+            $('.hoursText').text(" horas ");
         }
 
         if (($('.minutes').html()) == 1) {
-            $('.minutesText').text(" minute ");
+            $('.minutesText').text(" minuto ");
         } else {
-            $('.minutesText').text(" minutes ");
+            $('.minutesText').text(" minutos ");
         }
 
         if (($('.seconds').html()) == 1) {
-            $('.secondsText').text(" second ");
+            $('.secondsText').text(" segundo ");
         } else {
-            $('.secondsText').text(" seconds ");
+            $('.secondsText').text(" segundos ");
         }
 
     });
