@@ -28,7 +28,7 @@ class CountdownController extends Controller
         $information->message = $request->message;
         $information->save();
 
-        return back()->with('exito', '¡Gracias por registrarte!, Hemos enviado un correo electrónico confirmando tu registro');
+        return back()->with('exito', '¡Gracias por registrarte! Hemos enviado un correo electrónico confirmando tu registro.');
 
     }
 }
