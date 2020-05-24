@@ -15,5 +15,11 @@
     return view('welcome');
 }); */
 
+use App\Mail\NewClienteRegister;
+
 Route::get('/', 'CountdownController@index')->name('countdown');
 Route::post('/registar', 'CountdownController@register')->name('register');
+
+Route::get('/email', function(){
+    return new NewClienteRegister('Mauricio');
+});
