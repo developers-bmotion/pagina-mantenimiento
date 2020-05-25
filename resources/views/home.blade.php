@@ -223,11 +223,11 @@
                                         <h2>Suscripción</h2>
                                         <form method="POST" action="{{ route('register') }}">
                                             @csrf
-                                            <h3>Nombre</h3>
+                                            <h3>Nombre <span style="color: #E04131">*</span></h3>
                                             <p><input type="text" name="name" placeholder="Nombre" required /></p>
-                                            <h3>Télefono</h3>
+                                            <h3>Télefono <span style="color: #E04131">*</span></h3>
                                             <p><input type="text" name="phone" placeholder="Télefono" required/></p>
-                                            <h3>Email</h3>
+                                            <h3>Email <span style="color: #E04131">*</span></h3>
                                             <p><input type="email" name="email" placeholder="Email" required/></p>
                                             <h3>Mensaje (Opcional)</h3>
                                             <p><textarea name="message" cols="35" rows="5"
