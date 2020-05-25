@@ -74,7 +74,9 @@ $(document).ready(function() {
     COUNTDOWN DEFAULT
     =============================================== */
     var now = new Date();
-    var dateFinal = new Date('2020', '04', '27', '12', '00', '00'); // new Date( year , month , day , hour , minutes , seconds)
+    console.log('Hora actual', now);
+    var dateFinal = new Date('2020', '05', '02', '00', '00', '00'); // new Date( year , month , day , hour , minutes , seconds)
+    console.log('Dia a poner', dateFinal);
     var difference = dateFinal - now; //fix a gap of 30 days
     var countTo = difference + now.valueOf();
     $('.timer').countdown(countTo, function(event) {
@@ -92,7 +94,7 @@ $(document).ready(function() {
             case "finished":
                 $this.fadeOut();
                 setTimeout(function() { //if you want add a text
-                    $this.text("The countdown is ended!");
+                    $this.text("¡La cuenta regresiva ha terminado!");
                     $this.fadeIn();
                 }, 1500);
                 break;

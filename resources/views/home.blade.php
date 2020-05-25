@@ -224,12 +224,12 @@
                                         <form method="POST" action="{{ route('register') }}">
                                             @csrf
                                             <h3>Nombre</h3>
-                                            <p><input type="text" name="name" placeholder="Nombre" /></p>
+                                            <p><input type="text" name="name" placeholder="Nombre" required /></p>
                                             <h3>Télefono</h3>
-                                            <p><input type="text" name="phone" placeholder="Télefono" /></p>
+                                            <p><input type="text" name="phone" placeholder="Télefono" required/></p>
                                             <h3>Email</h3>
-                                            <p><input type="text" name="email" placeholder="Email" /></p>
-                                            <h3>Mensaje</h3>
+                                            <p><input type="email" name="email" placeholder="Email" required/></p>
+                                            <h3>Mensaje (Opcional)</h3>
                                             <p><textarea name="message" cols="35" rows="5"
                                                     placeholder="Mensaje"></textarea></p>
                                             <p><button type="submit" class="btn-submit">Suscribir</button></p>
@@ -243,25 +243,25 @@
                     </section>
 
                     <ul class="footer-social animate">
-                        <li><a href="#" class="facebook" title="Facebook" data-gal="tooltip" data-placement="bottom"
+                        <li><a href="https://www.facebook.com/cubataotiendas/" target="_blank" class="facebook" title="Facebook" data-gal="tooltip" data-placement="bottom"
                                 data-original-title="Facebook" aria-hidden="true" data-icon="&#xe093;"></a></li>
-                        <li><a href="#" class="twitter" title="Twitter" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Twitter" aria-hidden="true" data-icon="&#xe094;"></a></li>
-                        <li><a href="#" class="skype" title="Skype" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Skype" aria-hidden="true" data-icon="&#xe0a2;"></a></li>
-                        <li><a href="#" class="linkedin" title="Linkedin" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Linkedin" aria-hidden="true" data-icon="&#xe09d;"></a></li>
-                        <li><a href="#" class="pinterest" title="Pinterest" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Pinterest" aria-hidden="true" data-icon="&#xe095;"></a></li>
-                        <li><a href="#" class="instagram" title="Instagram" data-gal="tooltip" data-placement="bottom"
+                        {{--  <li><a href="#" target="_blank" class="twitter" title="Twitter" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Twitter" aria-hidden="true" data-icon="&#xe094;"></a></li>  --}}
+                        {{--  <li><a href="#" target="_blank" class="skype" title="Skype" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Skype" aria-hidden="true" data-icon="&#xe0a2;"></a></li>  --}}
+                        {{--  <li><a href="#" target="_blank" class="linkedin" title="Linkedin" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Linkedin" aria-hidden="true" data-icon="&#xe09d;"></a></li>  --}}
+                        {{--  <li><a href="#" target="_blank" class="pinterest" title="Pinterest" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Pinterest" aria-hidden="true" data-icon="&#xe095;"></a></li>  --}}
+                        <li><a href="https://www.instagram.com/cubataotiendas/?igshid=1via5pcxldv12" target="_blank" class="instagram" title="Instagram" data-gal="tooltip" data-placement="bottom"
                                 data-original-title="Instagram" aria-hidden="true" data-icon="&#xe09a;"></a></li>
-                        <li><a href="#" class="googleplus" title="Google Plus" data-gal="tooltip"
+                       {{--   <li><a href="#" target="_blank" class="googleplus" title="Google Plus" data-gal="tooltip"
                                 data-placement="bottom" data-original-title="Google Plus" aria-hidden="true"
-                                data-icon="&#xe096;"></a></li>
-                        <li><a href="#" class="dribbble" title="Dribbble" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Dribbble" aria-hidden="true" data-icon="&#xe09b;"></a></li>
-                        <li><a href="#" class="vimeo" title="Vimeo" data-gal="tooltip" data-placement="bottom"
-                                data-original-title="Vimeo" aria-hidden="true" data-icon="&#xe09c;"></a></li>
+                                data-icon="&#xe096;"></a></li>  --}}
+                        {{--  <li><a href="#" target="_blank" class="dribbble" title="Dribbble" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Dribbble" aria-hidden="true" data-icon="&#xe09b;"></a></li>  --}}
+                        {{--  <li><a href="#" target="_blank" class="vimeo" title="Vimeo" data-gal="tooltip" data-placement="bottom"
+                                data-original-title="Vimeo" aria-hidden="true" data-icon="&#xe09c;"></a></li>  --}}
                     </ul>
 
                 </div>
