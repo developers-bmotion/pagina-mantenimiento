@@ -89,7 +89,7 @@
                     </h1>
                     <h2 class="animate"><a href="#" title="Rosa - Responsive Coming Soon Template">UNA NUEVA FORMA DE
                             COMPRAR AHORRANDO</a></h2>
-                    <p class="intro animate">Nuestro sitio Web esta construcción. Suscribete y sé de los primeros en
+                    <p class="intro animate">Nuestro sitio web esta construcción. Suscríbete y sé de los primeros en
                         disfrutar a CUBATAO.COM</p>
                     <div class="timerContent animate">
                         <div class="timer">
@@ -226,7 +226,7 @@
                                             <h3>Nombre <span style="color: #E04131">*</span></h3>
                                             <p><input type="text" name="name" placeholder="Nombre" required /></p>
                                             <h3>Télefono <span style="color: #E04131">*</span></h3>
-                                            <p><input type="text" name="phone" placeholder="Télefono" required/></p>
+                                            <p><input type="text" name="phone" placeholder="Teléfono" required/></p>
                                             <h3>Email <span style="color: #E04131">*</span></h3>
                                             <p><input type="email" name="email" placeholder="Email" required/></p>
                                             <h3>Mensaje (Opcional)</h3>
