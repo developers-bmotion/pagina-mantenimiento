@@ -75,7 +75,7 @@ $(document).ready(function() {
     =============================================== */
     var now = new Date();
     console.log('Hora actual', now);
-    var dateFinal = new Date('2020', '05', '02', '00', '00', '00'); // new Date( year , month , day , hour , minutes , seconds)
+    var dateFinal = new Date('2020', '05', '15', '00', '00', '00'); // new Date( year , month , day , hour , minutes , seconds)
     console.log('Dia a poner', dateFinal);
     var difference = dateFinal - now; //fix a gap of 30 days
     var countTo = difference + now.valueOf();
